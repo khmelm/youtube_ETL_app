@@ -13,7 +13,7 @@ from datetime import timedelta, datetime
 from googleapiclient.discovery import build
 from dotenv import load_dotenv
 
-from utils.youtube import YouTubeDataExtractor, DatabaseLoader
+from scripts.youtube import YouTubeDataExtractor, DatabaseLoader
 
 load_dotenv()
 
